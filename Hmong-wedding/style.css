@@ -19,6 +19,9 @@ main {
     gap: 1rem;
 }
 
+.nav-title {
+    font-size: 2rem;
+}
 .nav-links {
     display: flex;
     gap: 1rem;
@@ -31,6 +34,16 @@ main {
     border-radius: 4px;
 }
 
+.nav-links a:hover {
+    background-color: #4f5d54;
+}
+
+.nav-logo {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    object-fit: cover;
+}
 .footer {
     background-color: #1A1A1A;
     color: #fff;
