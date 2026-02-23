@@ -9,6 +9,7 @@ main {
     margin: 0 auto;
 }
 
+/* Nav Section */
 .navbar {
     background-color: #1A1A1A;
     color:#fff;
@@ -39,11 +40,40 @@ main {
 }
 
 .nav-logo {
-    width: 15px;
-    height: 15px;
+    width: 25px;
+    height: 25px;
     border-radius: 50%;
     object-fit: cover;
 }
+
+/* Intro */
+.intro1 {
+    text-align: center;
+    padding: 1rem;
+}
+
+.introh {
+    text-align: center;
+    padding-top: 2rem;
+}
+
+.ol-wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+/* Poem */
+.poem1 {
+    display: flex;
+    line-height: 1.5;
+    margin: 1.5rem;
+    text-indent: 40px;
+}
+
+/* footer Section */
 .footer {
     background-color: #1A1A1A;
     color: #fff;
